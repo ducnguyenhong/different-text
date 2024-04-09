@@ -1,13 +1,6 @@
 import './App.css';
-import ReactDiffViewerLib from './diff/react-diff-viewer';
+import Final from './diff/final';
 
 export default function App() {
-  // useEffect(() => {
-  //   Cookies.set('TEST', '456', {
-  //     secure: true
-  //     // httpOnly: true
-  //   });
-  // }, []);
-
-  return <ReactDiffViewerLib />;
+  return <Final />;
 }
